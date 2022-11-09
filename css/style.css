@@ -1,0 +1,233 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+/*font-family: 'Playfair Display', serif;*/
+.h1, .h2, .h3{
+    font-family: 'Playfair Display', serif;
+}
+.h4 {
+    color: #666666;
+    font-family: 'Playfair Display', serif;
+}
+.iconClr{
+    color: #666666;
+
+}
+.secHead{
+    font-family: 'Playfair Display', serif;
+    color: #333333;
+}
+/*Navbar Part Start*/
+.navbar{
+    background-color: transparent;
+    border: none;
+}
+.navbar-default .navbar-brand {
+    color: #337ab7;
+    font-size: 40px;
+    font-family: 'Playfair Display', serif;
+
+}
+.nav > li > a {
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: bold;
+    color: #818783;
+    margin-left: 20px;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+/*Banner-1 Part Start*/
+#banner1{
+    width: 100%;
+}
+
+/*Fruit Section*/
+#fruit{
+    padding: 60px 0px;
+}
+#fruit .col-sm-4 img{
+    width: 240px;
+}
+#fruit .col-sm-4 .h4{
+    padding: 20px 0px 30px 0px;
+}
+
+/*Our Products Part*/
+#ourProduct{
+    padding-bottom: 50px;
+}
+#ourProduct .thumbnail{
+    border-radius: 0px;
+    color: #666666;
+}
+#ourProduct .h2{
+    padding-bottom: 60px;
+}
+#ourProduct .h2::after{
+    display: block;
+    height: 5px;
+    font-weight: bold;
+    background-color: #e6e6e6;
+    content: " ";
+    width: 60px;
+    margin: 0.6rem auto 0.5rem 0.2rem;
+    margin-left: 540px;
+}
+.thumbnail .smallpic img{
+    margin-right: auto;
+    margin-left: auto;
+    height: 180px;
+}
+.thumbnail .bigpic img{
+    margin-right: auto;
+    margin-left: auto;
+    height: 460px;
+}
+.thumbnail i{
+    font-size: 12px;
+}
+
+/*Banner-2 Part*/
+#banner-2{
+    color: white;
+}
+
+#banner-2{
+    background: linear-gradient(rgba(30,38,37,.7),rgba(30,38,37,.7)),url("../images/g1.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 500px;
+    width: 100%;
+    color: #ffffff;
+    background-size: cover;
+}
+#banner-2 .row{
+    margin-top: 150px;
+}
+#banner-2 .h5{
+    font-size: 18px;
+}
+#banner-2 .h1{
+    font-size: 45px;
+    padding-bottom: 40px;
+}
+#banner-2 a{
+    text-decoration: none;
+    border: 5px solid #97ae76;
+    background-color: #97ae76;
+    border-radius: 20px;
+    padding: 7px 20px;
+    color: white;
+
+}
+
+/*The Blog Part Start*/
+#theBlog{
+    padding: 40px 0px;
+}
+#theBlog .h2::after{
+    display: block;
+    height: 5px;
+    font-weight: bold;
+    background-color: #e6e6e6;
+    content: " ";
+    width: 60px;
+    margin: 0.6rem auto 0.5rem 0.2rem;
+    margin-left: 540px;
+}
+#theBlog .row{
+    padding: 40px 0px;
+}
+#theBlog .row .thumbnail {
+    display: block;
+    padding: 0px;
+    margin-bottom: 20px;
+    line-height: 1.42857143;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 0px;
+    -webkit-transition: border .2s ease-in-out;
+    -o-transition: border .2s ease-in-out;
+    transition: border .2s ease-in-out;
+}
+#theBlog .row .thumbnail .h3{
+    font-size: 20px;
+}
+#theBlog .row .thumbnail .caption{
+    padding: 20px 20px 40px;
+}
+#theBlog .row .thumbnail .caption span{
+    margin-left: 160px;
+}
+
+/*Banner-3 Part Start*/
+#banner-3 a{
+    position: absolute;
+    margin-left: 570px;
+    color: #fff;
+    margin-top: -155px;
+    border: 5px solid #97ae76;
+    background-color: #97ae76;
+    padding: 7px 25px;
+    border-radius: 20px;
+    font-weight: bold;
+}
+#banner-3 a i{
+    margin-right: 10px;
+}
+#banner-3 .row{
+    width: 1370px;
+}
+/*Footer Part start*/
+#footer{
+    padding: 30px 0px 50px 0px;
+}
+#footer .h1{
+    color: #337ab7;
+    padding: 20px 0px 10px 0px;
+}
+#footer .h5{
+    padding: 40px 0px 20px 0px;
+    color: #111;
+}
+#footer i{
+    color: #666666;
+    margin-right: 15px;
+}
+#footer p{
+    color: #666666;
+}
+#footer form .form-group input{
+    margin-top: 30px;
+    border-radius: 15px;
+}
+#footer .icon i{
+    position: absolute;
+    color: white;
+    border: 2px solid #97ae76;
+    background-color: #97ae76;
+    border-radius: 100%;
+    padding: 5px;
+    margin-top: -46px;
+    margin-left:327px ;
+}
+/*Lower Part Start*/
+#lower{
+    background-color: #222222;
+    padding: 30px 0px 10px 0px;
+    color: #666666;
+}
+#lower i{
+    color: white;
+    font-size: 28px;
+    margin-left: 25px;
+    border: 2px solid #222222;
+    background-color: #666666;
+    border-radius: 100px;
+    padding: 7px 2px;
+
+}
